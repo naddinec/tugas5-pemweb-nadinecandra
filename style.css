@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cbcbcb;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container, .form-container, .cv-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cv-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+strong {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.work-exp, .education, .referees {
+    margin-bottom: 20px;
+}
+
+.work-exp h4, .education h4, .referees h4 {
+    margin: 0;
+    color: #555;
+}
+
+.work-exp p, .education p, .referees p {
+    margin: 5px 0;
+}
+
+
+.work-exp ul, .education ul, .referees ul {
+    margin: 10px 0;
+}
+
+.work-exp li, .education li, .referees li {
+    background-color: #fff;
+    border: none;
+    padding: 5px 0;
+}
+
+.work-exp li::before, .education li::before, .referees li::before {
+    content: "•";
+    color: #333;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.profile-img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea, button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #2889a7;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #217994;
+}
+
+.work-exp {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.profile-img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
